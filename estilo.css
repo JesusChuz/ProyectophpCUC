@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+body
+{
+	margin:0;
+	padding:0;
+	font-family:arial;
+	color: white;
+}
+.foot
+{
+  width: 100%;
+  align-self: flex-end;
+}
+.margenindex
+{
+  margin-top: 20px;
+}
+
+p
+{
+	text-align: justify;
+	text-align: center;
+  padding-top: 15px;
+}
+.de
+{
+  margin:0 auto;
+  text-align: center;
+}
+.datoe
+{
+  max-width: 400px;
+  min-width: 300px;
+  width: 400px;
+  height: 150px;
+  padding: 3%;
+}
+.e
+{
+  text-align: justify;
+}
+.a
+{
+  padding-top: 30px;
+}
+.mar
+{
+  padding-bottom: 1%;
+}
+.dato2
+{
+  max-width: 350px;
+  min-width: 300px;
+  width: 300px;
+  height: 330px;
+  margin-right: 1%;
+  padding: 5%;
+}
+.dato
+{
+  max-width: 270px;
+  min-width: 250px;
+  width: 270px;
+  height: 70px;
+  padding: 3%;
+}
+.bot
+{
+  padding-bottom: 4%;
+}
+
+.et
+{
+  text-align: left;
+}
+
+.form-control
+{
+  max-width: 200px;
+  min-width: 150px;
+}
+.coll
+{
+  margin: 0;
+  padding: 0;
+}
+.foto
+{
+  width: 350px;
+  padding: 2%;
+
+}
+.sec
+{
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 0%;
+}
+.publi
+{
+  position: fixed;
+  top: 2px;
+  left: 2px;
+  height: auto;
+  overflow: hidden;
+}
+.padre
+{
+  position: relative;
+}
+.tr
+{
+  padding: 2%;
+  margin: 1%;
+  text-align: justify;
+}
+
+.max
+{
+  max-width: 250px;
+}
+.text
+{
+	text-align: justify;
+}
+.col-center
+{
+    float: none;
+    margin: 0 auto;
+    text-align: center,
+}
+
+.alin
+{
+	text-align: right;
+}
+.alini
+{
+	text-align: left;
+}
+.az
+{
+	background-color: #003162;
+}
+.cl
+{
+	background-color: #00a4bc;
+}
+.vr
+{
+	background: #b5c627;
+}
+#cover { 
+    background: #222 url('../img/fondo.jpg') center center no-repeat;
+    background-size: cover;
+    color: white; /* color de texto*/
+    height: 100%;
+    text-align: center; /* alinación del texto*/
+    display: flex;
+    align-items: center;
+}
+h2
+{
+	color: black;
+}
+#linkRegistrarse{
+  color: #fff;
+}
+a:visited{
+  color: #b5c627;
+}
+a:hover{
+  color:#00a4bc;
+}
+a:active{
+  color: #003162;}
+
+/* footer social icons */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+#LogIn-info{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+#formularioContacto{
+  min-width:575px;
+}
+
+/* footer icons redes sociales*/
+
+.social-network a.icoRss:hover {
+  background-color: #F56505;
+}
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoTwitter:hover {
+  background-color: #33ccff;
+}
+
+.social-network a.icoGoogle:hover {
+  background-color: #BD3518;
+}caja
+
+.social-network a.icoVimeo:hover {
+  background-color: #0590B8;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoRss:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoVimeo:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 40px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.wow {
+  visibility: hidden;
+}
+
+a {
+  background-color: transparent;
+}
+.login{
+  background-image: url("../img/banneri1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.bt
+{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.regis
+{
+  padding: 30px;
+  text-align: center;
+  background-image: url("../img/reg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+}
+
+.regis>h2
+{
+  color: white;
+}
